@@ -1,0 +1,10 @@
+   0 mkdir -p /usa/california
+   1 touch /usa/california/sacramento.txt
+   2 date > /usa/california/sacramento.txt 
+   3 df -h >> /usa/california/sacramento.txt 
+   4 history | tail -5 >> /usa/california/sacramento.txt 
+   5 cat /proc/cpuinfo | grep vendor >> /usa/california/sacramento.txt 
+   6 vi /usa/california/sacramento.txt 
+   7 ps -ef | wc -l >> /usa/california/sacramento.txt 
+   8 cat /usa/california/sacramento.txt 
+   9 history > history.txt
